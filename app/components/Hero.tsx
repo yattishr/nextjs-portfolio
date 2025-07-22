@@ -18,7 +18,7 @@ function Hero() {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        className="relative rounded-full mx-auto object-cover"
+        className="relative rounded-full mx-auto object-cover border bg-purple-100 border-purple-200"
         src="/profile.jpg"
         alt="Profile picture"
         width={128}
